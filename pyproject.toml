@@ -6,10 +6,15 @@ readme = "README.md"
 authors = [
     { name = "Abd0id", email = "abdellah.idfath.dev@gmail.com" }
 ]
-requires-python = ">=3.14"
+requires-python = ">=3.10, <3.15"
 dependencies = [
     "apache-airflow>=3.3.1",
-    "pandas>=3.0.5",
+    "ipykernel>=7.3.0",
+    "ipywidgets>=8.1.9",
+    "pandas<3",
+    "scipy>=1.4.1,<1.17",
+    "setuptools<81",
+    "ydata-profiling>=4.18.4",
 ]
 
 [project.scripts]
