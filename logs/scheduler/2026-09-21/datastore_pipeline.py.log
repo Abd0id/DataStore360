@@ -1,0 +1,476 @@
+[2026-09-21 14:53:13,988] {scheduler_job.py:182} INFO - Started process (PID=45) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:53:13,991] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 14:53:13,992] {logging_mixin.py:104} INFO - [2026-09-21 14:53:13,992] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:53:15,977] {logging_mixin.py:104} INFO - [2026-09-21 14:53:15,976] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 14:53:15,978] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:53:16,010] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 2.028 seconds
+[2026-09-21 14:53:46,549] {scheduler_job.py:182} INFO - Started process (PID=77) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:53:46,550] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 14:53:46,551] {logging_mixin.py:104} INFO - [2026-09-21 14:53:46,551] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:53:47,155] {logging_mixin.py:104} INFO - [2026-09-21 14:53:47,154] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 14:53:47,155] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:53:47,176] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.631 seconds
+[2026-09-21 14:54:17,544] {scheduler_job.py:182} INFO - Started process (PID=104) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:54:17,547] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 14:54:17,548] {logging_mixin.py:104} INFO - [2026-09-21 14:54:17,548] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:54:18,141] {logging_mixin.py:104} INFO - [2026-09-21 14:54:18,140] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 14:54:18,141] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:54:18,170] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.631 seconds
+[2026-09-21 14:54:49,049] {scheduler_job.py:182} INFO - Started process (PID=134) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:54:49,050] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 14:54:49,051] {logging_mixin.py:104} INFO - [2026-09-21 14:54:49,051] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:54:49,514] {logging_mixin.py:104} INFO - [2026-09-21 14:54:49,513] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 14:54:49,514] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:54:49,533] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.487 seconds
+[2026-09-21 14:55:19,758] {scheduler_job.py:182} INFO - Started process (PID=161) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:55:19,759] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 14:55:19,760] {logging_mixin.py:104} INFO - [2026-09-21 14:55:19,760] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:55:20,203] {logging_mixin.py:104} INFO - [2026-09-21 14:55:20,202] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 14:55:20,204] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:55:20,220] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.467 seconds
+[2026-09-21 14:55:50,326] {scheduler_job.py:182} INFO - Started process (PID=188) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:55:50,327] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 14:55:50,328] {logging_mixin.py:104} INFO - [2026-09-21 14:55:50,327] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:55:50,768] {logging_mixin.py:104} INFO - [2026-09-21 14:55:50,767] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 14:55:50,769] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:55:50,785] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.464 seconds
+[2026-09-21 14:56:21,317] {scheduler_job.py:182} INFO - Started process (PID=215) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:56:21,318] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 14:56:21,319] {logging_mixin.py:104} INFO - [2026-09-21 14:56:21,319] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:56:21,758] {logging_mixin.py:104} INFO - [2026-09-21 14:56:21,757] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 14:56:21,758] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:56:21,776] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.463 seconds
+[2026-09-21 14:56:52,019] {scheduler_job.py:182} INFO - Started process (PID=242) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:56:52,020] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 14:56:52,021] {logging_mixin.py:104} INFO - [2026-09-21 14:56:52,021] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:56:52,496] {logging_mixin.py:104} INFO - [2026-09-21 14:56:52,495] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 14:56:52,497] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:56:52,516] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.501 seconds
+[2026-09-21 14:57:22,552] {scheduler_job.py:182} INFO - Started process (PID=272) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:57:22,554] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 14:57:22,555] {logging_mixin.py:104} INFO - [2026-09-21 14:57:22,555] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:57:23,034] {logging_mixin.py:104} INFO - [2026-09-21 14:57:23,033] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 14:57:23,034] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:57:23,059] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.512 seconds
+[2026-09-21 14:57:53,562] {scheduler_job.py:182} INFO - Started process (PID=299) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:57:53,564] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 14:57:53,565] {logging_mixin.py:104} INFO - [2026-09-21 14:57:53,565] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:57:54,139] {logging_mixin.py:104} INFO - [2026-09-21 14:57:54,138] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 14:57:54,139] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:57:54,161] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.603 seconds
+[2026-09-21 14:58:24,776] {scheduler_job.py:182} INFO - Started process (PID=327) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:58:24,778] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 14:58:24,778] {logging_mixin.py:104} INFO - [2026-09-21 14:58:24,778] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:58:25,277] {logging_mixin.py:104} INFO - [2026-09-21 14:58:25,276] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 14:58:25,278] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:58:25,305] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.533 seconds
+[2026-09-21 14:58:56,093] {scheduler_job.py:182} INFO - Started process (PID=354) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:58:56,095] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 14:58:56,096] {logging_mixin.py:104} INFO - [2026-09-21 14:58:56,096] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:58:56,521] {logging_mixin.py:104} INFO - [2026-09-21 14:58:56,520] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 14:58:56,522] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:58:56,540] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.451 seconds
+[2026-09-21 14:59:26,615] {scheduler_job.py:182} INFO - Started process (PID=381) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:59:26,617] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 14:59:26,619] {logging_mixin.py:104} INFO - [2026-09-21 14:59:26,618] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:59:27,377] {logging_mixin.py:104} INFO - [2026-09-21 14:59:27,376] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 14:59:27,378] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:59:27,414] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.807 seconds
+[2026-09-21 14:59:58,024] {scheduler_job.py:182} INFO - Started process (PID=408) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:59:58,025] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 14:59:58,026] {logging_mixin.py:104} INFO - [2026-09-21 14:59:58,026] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:59:58,635] {logging_mixin.py:104} INFO - [2026-09-21 14:59:58,634] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 14:59:58,635] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 14:59:58,655] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.636 seconds
+[2026-09-21 15:00:29,443] {scheduler_job.py:182} INFO - Started process (PID=435) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:00:29,444] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 15:00:29,445] {logging_mixin.py:104} INFO - [2026-09-21 15:00:29,445] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:00:29,878] {logging_mixin.py:104} INFO - [2026-09-21 15:00:29,877] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 15:00:29,878] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:00:29,899] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.462 seconds
+[2026-09-21 15:01:00,826] {scheduler_job.py:182} INFO - Started process (PID=462) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:01:00,828] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 15:01:00,828] {logging_mixin.py:104} INFO - [2026-09-21 15:01:00,828] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:01:01,322] {logging_mixin.py:104} INFO - [2026-09-21 15:01:01,322] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 15:01:01,323] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:01:01,345] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.523 seconds
+[2026-09-21 15:01:32,218] {scheduler_job.py:182} INFO - Started process (PID=489) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:01:32,219] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 15:01:32,220] {logging_mixin.py:104} INFO - [2026-09-21 15:01:32,220] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:01:32,728] {logging_mixin.py:104} INFO - [2026-09-21 15:01:32,727] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 15:01:32,728] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:01:32,764] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.550 seconds
+[2026-09-21 15:02:03,674] {scheduler_job.py:182} INFO - Started process (PID=516) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:02:03,676] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 15:02:03,677] {logging_mixin.py:104} INFO - [2026-09-21 15:02:03,677] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:02:04,116] {logging_mixin.py:104} INFO - [2026-09-21 15:02:04,115] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 15:02:04,116] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:02:04,139] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.469 seconds
+[2026-09-21 15:02:34,329] {scheduler_job.py:182} INFO - Started process (PID=543) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:02:34,330] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 15:02:34,331] {logging_mixin.py:104} INFO - [2026-09-21 15:02:34,331] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:02:34,784] {logging_mixin.py:104} INFO - [2026-09-21 15:02:34,783] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 15:02:34,784] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:02:34,806] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.481 seconds
+[2026-09-21 15:03:05,069] {scheduler_job.py:182} INFO - Started process (PID=570) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:03:05,070] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 15:03:05,071] {logging_mixin.py:104} INFO - [2026-09-21 15:03:05,071] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:03:05,495] {logging_mixin.py:104} INFO - [2026-09-21 15:03:05,494] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 15:03:05,495] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:03:05,515] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.450 seconds
+[2026-09-21 15:03:35,627] {scheduler_job.py:182} INFO - Started process (PID=597) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:03:35,628] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 15:03:35,629] {logging_mixin.py:104} INFO - [2026-09-21 15:03:35,629] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:03:36,194] {logging_mixin.py:104} INFO - [2026-09-21 15:03:36,193] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 15:03:36,194] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:03:36,219] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.596 seconds
+[2026-09-21 15:04:06,470] {scheduler_job.py:182} INFO - Started process (PID=624) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:04:06,475] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 15:04:06,476] {logging_mixin.py:104} INFO - [2026-09-21 15:04:06,476] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:04:07,181] {logging_mixin.py:104} INFO - [2026-09-21 15:04:07,180] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 15:04:07,181] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:04:07,216] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.753 seconds
+[2026-09-21 15:04:38,134] {scheduler_job.py:182} INFO - Started process (PID=651) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:04:38,135] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 15:04:38,136] {logging_mixin.py:104} INFO - [2026-09-21 15:04:38,136] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:04:38,727] {logging_mixin.py:104} INFO - [2026-09-21 15:04:38,726] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 15:04:38,728] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:04:38,763] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.634 seconds
+[2026-09-21 15:05:09,306] {scheduler_job.py:182} INFO - Started process (PID=678) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:05:09,308] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 15:05:09,309] {logging_mixin.py:104} INFO - [2026-09-21 15:05:09,309] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:05:09,926] {logging_mixin.py:104} INFO - [2026-09-21 15:05:09,925] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 15:05:09,926] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:05:09,946] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.646 seconds
+[2026-09-21 15:05:40,658] {scheduler_job.py:182} INFO - Started process (PID=705) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:05:40,660] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 15:05:40,661] {logging_mixin.py:104} INFO - [2026-09-21 15:05:40,660] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:05:41,102] {logging_mixin.py:104} INFO - [2026-09-21 15:05:41,101] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 15:05:41,103] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:05:41,124] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.471 seconds
+[2026-09-21 15:06:11,249] {scheduler_job.py:182} INFO - Started process (PID=732) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:06:11,250] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 15:06:11,252] {logging_mixin.py:104} INFO - [2026-09-21 15:06:11,251] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:06:12,032] {logging_mixin.py:104} INFO - [2026-09-21 15:06:12,031] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 15:06:12,033] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:06:12,061] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.818 seconds
+[2026-09-21 15:06:42,183] {scheduler_job.py:182} INFO - Started process (PID=759) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:06:42,185] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 15:06:42,186] {logging_mixin.py:104} INFO - [2026-09-21 15:06:42,186] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:06:42,738] {logging_mixin.py:104} INFO - [2026-09-21 15:06:42,737] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 15:06:42,739] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:06:42,762] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.584 seconds
+[2026-09-21 15:07:13,263] {scheduler_job.py:182} INFO - Started process (PID=786) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:07:13,266] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 15:07:13,267] {logging_mixin.py:104} INFO - [2026-09-21 15:07:13,267] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:07:13,991] {logging_mixin.py:104} INFO - [2026-09-21 15:07:13,989] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 15:07:13,991] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:07:14,027] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.769 seconds
+[2026-09-21 15:07:44,864] {scheduler_job.py:182} INFO - Started process (PID=813) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:07:44,866] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 15:07:44,867] {logging_mixin.py:104} INFO - [2026-09-21 15:07:44,867] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:07:45,568] {logging_mixin.py:104} INFO - [2026-09-21 15:07:45,566] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 15:07:45,569] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:07:45,598] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.740 seconds
+[2026-09-21 15:08:16,663] {scheduler_job.py:182} INFO - Started process (PID=840) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:08:16,681] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 15:08:16,685] {logging_mixin.py:104} INFO - [2026-09-21 15:08:16,684] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:08:17,677] {logging_mixin.py:104} INFO - [2026-09-21 15:08:17,673] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 15:08:17,678] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:08:17,714] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 1.092 seconds
+[2026-09-21 15:08:48,172] {scheduler_job.py:182} INFO - Started process (PID=867) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:08:48,174] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 15:08:48,176] {logging_mixin.py:104} INFO - [2026-09-21 15:08:48,176] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:08:49,908] {logging_mixin.py:104} INFO - [2026-09-21 15:08:49,900] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 15:08:49,909] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:08:50,006] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 1.852 seconds
+[2026-09-21 15:09:20,791] {scheduler_job.py:182} INFO - Started process (PID=894) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:09:20,794] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 15:09:20,796] {logging_mixin.py:104} INFO - [2026-09-21 15:09:20,796] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:09:21,563] {logging_mixin.py:104} INFO - [2026-09-21 15:09:21,562] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 15:09:21,564] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:09:21,611] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.826 seconds
+[2026-09-21 15:09:52,541] {scheduler_job.py:182} INFO - Started process (PID=921) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:09:52,542] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 15:09:52,543] {logging_mixin.py:104} INFO - [2026-09-21 15:09:52,543] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:09:53,189] {logging_mixin.py:104} INFO - [2026-09-21 15:09:53,188] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 15:09:53,189] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:09:53,223] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.688 seconds
+[2026-09-21 15:10:23,768] {scheduler_job.py:182} INFO - Started process (PID=948) to work on /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:10:23,770] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/datastore_pipeline.py for tasks to queue
+[2026-09-21 15:10:23,771] {logging_mixin.py:104} INFO - [2026-09-21 15:10:23,771] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:10:24,418] {logging_mixin.py:104} INFO - [2026-09-21 15:10:24,417] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/datastore_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/datastore_pipeline.py", line 6, in <module>
+    from src.cleaning import clean_and_transform
+ModuleNotFoundError: No module named 'src'
+[2026-09-21 15:10:24,419] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/datastore_pipeline.py
+[2026-09-21 15:10:24,449] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/datastore_pipeline.py took 0.686 seconds
